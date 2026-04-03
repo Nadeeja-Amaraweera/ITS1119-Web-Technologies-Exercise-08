@@ -1,0 +1,53 @@
+body {
+  background-color: #374148; /* Dark slate background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 600px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #7a7a7a;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  padding: 15px 0;
+  min-height: 50px;
+}
+
+/* Shared box styling */
+.box {
+  width: 80px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+/* Specific Row Alignments */
+.top {
+  justify-content: flex-start;
+}
+
+.middle {
+  justify-content: center;
+  gap: 10px; /* Space between boxes */
+}
+
+.bottom {
+  justify-content: flex-end;
+}
+
+/* Colors */
+.red          { background-color: #ff0000; }
+.green        { background-color: #008000; }
+.blue         { background-color: #0000ff; }
+.yellow       { background-color: #ffff00; }
+.pink-light   { background-color: #ffc0cb; }
+.purple-light { background-color: #ee82ee; }
